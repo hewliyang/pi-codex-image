@@ -1,6 +1,10 @@
 {
-	"name": "pi-codex-image",
+	"name": "@hewliyang/pi-codex-image",
 	"version": "0.1.1",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hewliyang/pi-codex-image.git"
+	},
 	"description": "Pi extension that exposes OpenAI's hosted image_generation tool to any model, authenticated via the openai-codex (ChatGPT Plus/Pro) OAuth credential.",
 	"keywords": [
 		"pi-package",

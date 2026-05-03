@@ -1,0 +1,36 @@
+{
+	"name": "pi-codex-image",
+	"version": "0.1.0",
+	"description": "Pi extension that exposes OpenAI's hosted image_generation tool to any model, authenticated via the openai-codex (ChatGPT Plus/Pro) OAuth credential.",
+	"keywords": [
+		"pi-package",
+		"pi-extension",
+		"openai",
+		"codex",
+		"image-generation",
+		"gpt-image"
+	],
+	"license": "MIT",
+	"type": "module",
+	"files": [
+		"index.ts",
+		"skills",
+		"README.md"
+	],
+	"pi": {
+		"extensions": [
+			"./index.ts"
+		],
+		"skills": [
+			"./skills"
+		]
+	},
+	"peerDependencies": {
+		"@mariozechner/pi-coding-agent": "*",
+		"@mariozechner/pi-tui": "*",
+		"typebox": "*"
+	},
+	"scripts": {
+		"check": "echo 'no build step - pi loads .ts via jiti'"
+	}
+}
